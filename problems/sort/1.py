@@ -1,7 +1,5 @@
 import argparse
-################################
-##### START MODIFYING HERE #####
-################################
+#<START>
 def partition(arr, low, high):
     pivot = arr[high]
     i = low - 1
@@ -24,9 +22,7 @@ def sort(numbers: list[int]):
     n = len(numbers)
     sorter(numbers, 0, n - 1)
     print(numbers)
-###############################
-##### STOP MODIFYING HERE #####
-###############################
+#<STOP>
 def parse_int_list(value):
     try:
         return [int(x) for x in value.split(',')]
