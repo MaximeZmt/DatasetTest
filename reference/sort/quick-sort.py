@@ -21,7 +21,7 @@ def sorter(arr, low, high):
 def sort(numbers: list[int]):
     n = len(numbers)
     sorter(numbers, 0, n - 1)
-    print(numbers)
+    print(",".join(map(str, numbers)))
 #<STOP>
 def parse_int_list(value):
     try:
